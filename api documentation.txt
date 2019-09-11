@@ -1,0 +1,8 @@
+GET /homes
+GET request to all home ids with attributes
+Optionally accepts sell, list, living, rooms, beds, baths, age, acres or taxes queryString params to obtain homes by specific attributes 
+Returns array of objects for homes which have specific attributes greater than queryString params
+
+
+GET /seed
+GET request to seed all data from csv to Database
