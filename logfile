@@ -97,3 +97,14 @@
 	
 2019-09-11 18:56:01.517 +08 [6952] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
 	
+2019-09-11 19:06:19.655 +08 [13032] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2019-09-13 09:54:03.439 +08 [17412] LOG:  listening on IPv6 address "::1", port 5432
+2019-09-13 09:54:03.439 +08 [17412] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-09-13 09:54:04.179 +08 [16052] LOG:  database system was interrupted; last known up at 2019-09-11 18:43:39 +08
+2019-09-13 09:54:17.810 +08 [16052] LOG:  database system was not properly shut down; automatic recovery in progress
+2019-09-13 09:54:17.825 +08 [16052] LOG:  redo starts at 0/18535C8
+2019-09-13 09:54:17.825 +08 [16052] LOG:  invalid record length at 0/18536A8: wanted 24, got 0
+2019-09-13 09:54:17.825 +08 [16052] LOG:  redo done at 0/1853670
+2019-09-13 09:54:18.103 +08 [17412] LOG:  database system is ready to accept connections
+2019-09-13 09:58:12.493 +08 [4968] FATAL:  database "homes" does not exist

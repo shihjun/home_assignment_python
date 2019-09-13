@@ -3,6 +3,25 @@ GET request to all home ids with attributes
 Optionally accepts sell, list, living, rooms, beds, baths, age, acres or taxes queryString params to obtain homes by specific attributes 
 Returns array of objects for homes which have specific attributes greater than queryString params
 
+Example Request
+/homes?beds=5&rooms=12
+
+Example Response
+200 － OK
+[
+  {
+    "acres": 4.29,
+    "age": 202,
+    "baths": 3,
+    "beds": 5,
+    "id": 44,
+    "list": 230,
+    "living": 39,
+    "rooms": 12,
+    "sell": 212,
+    "taxes": 3648
+  }
+]
 
 GET /seed
 GET request to seed all data from csv to Database

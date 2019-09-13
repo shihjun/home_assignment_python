@@ -33,7 +33,7 @@ def seed():
             x.taxes = row[' "Taxes"']
 
             db.session.add(x)
-            db.session.commit()
+        db.session.commit()
 
         homes = Home.query.all()
         json_homes = HomeSchema(many=True).dump(homes)
